@@ -1,27 +1,28 @@
 {
-  "1234567890" : {
-    "cuentas_efectivo" : {
-      "cuenta_perfiles" : {
-        "saldo" : 500,
-        "tarjeta" : 1234567890
-      }
-    },
-    "lastName" : "Vidal Jimenez",
-    "name" : "Erik",
-    "saldo" : 56372.7,
-    "transferencias" : {
-      "1231" : {
-        "fecha" : "08/01/2019",
-        "monto" : 345.32,
-        "motivo" : "despensa",
-        "remitente" : 1234567891
-      },
-      "1234" : {
-        "fecha" : "08/01/2019",
-        "monto" : 3300,
-        "motivo" : "renta",
-        "remitente" : 1234567891
-      }
+  "personas": [
+    {
+      "id":"1234567890",
+      "name": "Erik",
+      "lastName": "Vidal Jimenez",
+      "cuentas":[
+        {
+          "id":"1",
+          "saldo":500,
+          "tipo":"cuenta perfiles", 
+          "numero_tarjeta":"1234567890"
+        }
+      ],
+      "movimientos":[
+        {"depositos_recibidos":[
+          {
+            "id":"18272",
+            "fecha":"dd/mm/yyyyy",
+            "monto":"300",
+            "motivo":"despensa",
+            "remitente": "1234567891"
+          }
+        ]}
+      ]
     }
-  }
+  ],
 }
