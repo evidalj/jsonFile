@@ -1,27 +1,29 @@
 {
   "personas": [
     {
-      "id":"1234567890",
+      "id": "1234567890",
       "name": "Erik",
       "lastName": "Vidal Jimenez",
-      "cuentas":[
+      "cuentas": [
         {
-          "id":"1",
-          "saldo":500,
-          "tipo":"cuenta perfiles", 
-          "numero_tarjeta":"1234567890"
+          "id": "1",
+          "saldo": 500,
+          "tipo": "cuenta perfiles",
+          "numero_tarjeta": "1234567890"
         }
       ],
-      "movimientos":[
-        {"depositos_recibidos":[
-          {
-            "id":"18272",
-            "fecha":"dd/mm/yyyyy",
-            "monto":"300",
-            "motivo":"despensa",
-            "remitente": "1234567891"
-          }
-        ]}
+      "movimientos": [
+        {
+          "depositos_recibidos": [
+            {
+              "id": "18272",
+              "fecha": "dd/mm/yyyyy",
+              "monto": "300",
+              "motivo": "despensa",
+              "remitente": "1234567891"
+            }
+          ]
+        }
       ]
     }
   ]
