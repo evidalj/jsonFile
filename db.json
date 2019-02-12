@@ -1,7 +1,27 @@
 {
-"personas":[
-{
-"1234567890":{"name":"Erik","lastName":"Vidal Jimenez"}
-}
-]
+  "1234567890" : {
+    "cuentas_efectivo" : {
+      "cuenta_perfiles" : {
+        "saldo" : 500,
+        "tarjeta" : 1234567890
+      }
+    },
+    "lastName" : "Vidal Jimenez",
+    "name" : "Erik",
+    "saldo" : 56372.7,
+    "transferencias" : {
+      "1231" : {
+        "fecha" : "08/01/2019",
+        "monto" : 345.32,
+        "motivo" : "despensa",
+        "remitente" : 1234567891
+      },
+      "1234" : {
+        "fecha" : "08/01/2019",
+        "monto" : 3300,
+        "motivo" : "renta",
+        "remitente" : 1234567891
+      }
+    }
+  }
 }
