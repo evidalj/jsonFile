@@ -6,11 +6,13 @@
       "efectivo":[
         {
           "nombre":"perfiles",
-          "saldo":500
+          "saldo":500,
+          "tarjeta": "1234567890"
       },
       {
         "nombre":"maestra",
-        "saldo":200
+        "saldo":200,
+        "tarjeta": "0000000000"
       }
     ],
       "credito":[]
