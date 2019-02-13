@@ -14,6 +14,14 @@
       }
     ],
       "credito":[]
-    }
+    },
+    "movimientos":[
+      {
+        "depositos_recibidos":[]
+      },
+      {
+        "transferencias_realizadas":[]
+      }
+    ]
   }
 }
