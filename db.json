@@ -1,17 +1,19 @@
 {
-"personas":[
-  {
-    "id":"1234567890",
-    "nombre": "Erik",
+  "1234567890":{
+    "nombre":"Erik",
     "apellidos": "Vidal Jimenez",
-    "cuentas": [
+    "cuentas":{
+      "efectivo":[
+        {
+          "nombre":"perfiles",
+          "saldo":500
+      },
       {
-        "id":"1",
-        "tipo":"perfiles",
-        "tarjeta":"1234567890",
-        "saldo": 500
+        "nombre":"maestra",
+        "saldo":200
       }
-    ]
+    ],
+      "credito":[]
+    }
   }
-]
 }
