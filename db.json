@@ -20,7 +20,15 @@
       {
         "nombre":"maestra",
         "saldo":200,
-        "tarjeta": "0000000000"
+        "tarjeta": "0000000000",
+        "movimientos": [
+          {
+            "depositos_recibidos":[]
+          },
+          {
+            "transferencias":[]
+          }
+        ]
       }
     ],
       "credito":[]
