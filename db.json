@@ -7,7 +7,15 @@
         {
           "nombre":"perfiles",
           "saldo":500,
-          "tarjeta": "1234567890"
+          "tarjeta": "1234567890",
+          "movimientos":[
+            {
+              "depositos_recibidos":[]
+            },
+            {
+              "transferencias":[]
+            }
+          ]
       },
       {
         "nombre":"maestra",
@@ -16,14 +24,6 @@
       }
     ],
       "credito":[]
-    },
-    "movimientos":[
-      {
-        "depositos_recibidos":[]
-      },
-      {
-        "transferencias_realizadas":[]
-      }
-    ]
+    }
   }
 }
