@@ -10,8 +10,12 @@
           "tarjeta": "1234567890",
           "movimientos":
             
-              "depositos_recibidos":[],
-              "transferencias":[]
+          {
+            "depositos_recibidos":[]
+          },
+          {
+          "transferencias":[]
+        }
       },
       {
         "nombre":"maestra",
