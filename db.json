@@ -1,37 +1,37 @@
 {
-  "1234567890":{
-    "nombre":"Erik",
-    "apellidos": "Vidal Jimenez",
-    "cuentas":{
-      "efectivo":[
-        {
-          "nombre":"perfiles",
-          "saldo":500,
-          "tarjeta": "1234567890",
-          "movimientos":
-            
-          {
-            "depositos_recibidos":[]
-          },
-          {
-          "transferencias":[]
+    "1234567890": {
+        "nombre": "Erik",
+        "apellidos": "Vidal Jimenez",
+        "cuentas": {
+            "efectivo": [
+                {
+                    "nombre": "perfiles",
+                    "saldo": 500,
+                    "tarjeta": "1234567890",
+                    "movimientos": [
+                        {
+                            "depositos_recibidos": []
+                        },
+                        {
+                            "transferencias": []
+                        }
+                    ]
+                },
+                {
+                    "nombre": "maestra",
+                    "saldo": 200,
+                    "tarjeta": "0000000000",
+                    "movimientos": [
+                        {
+                            "depositos_recibidos": []
+                        },
+                        {
+                            "transferencias": []
+                        }
+                    ]
+                }
+            ],
+            "credito": []
         }
-      },
-      {
-        "nombre":"maestra",
-        "saldo":200,
-        "tarjeta": "0000000000",
-        "movimientos": [
-          {
-            "depositos_recibidos":[]
-          },
-          {
-            "transferencias":[]
-          }
-        ]
-      }
-    ],
-      "credito":[]
     }
-  }
 }
