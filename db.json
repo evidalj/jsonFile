@@ -9,13 +9,9 @@
           "saldo":500,
           "tarjeta": "1234567890",
           "movimientos":
-            {
-              "depositos_recibidos":[]
-            },
-            {
+            
+              "depositos_recibidos":[],
               "transferencias":[]
-            }
-          
       },
       {
         "nombre":"maestra",
