@@ -8,14 +8,14 @@
           "nombre":"perfiles",
           "saldo":500,
           "tarjeta": "1234567890",
-          "movimientos":[
+          "movimientos":
             {
               "depositos_recibidos":[]
             },
             {
               "transferencias":[]
             }
-          ]
+          
       },
       {
         "nombre":"maestra",
